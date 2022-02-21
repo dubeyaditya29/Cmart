@@ -20,7 +20,7 @@
 }
 .footer {
   display: flex;
-  position: absolute;
+  position: inherit;
   bottom: 0;
   flex-direction: column;
   justify-content: center;

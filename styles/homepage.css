@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=IBM+Plex+Mono:wght@500&family=Montserrat&family=Roboto+Mono&family=Source+Code+Pro&display=swap");
+
+.font-loc,
+.sp-txt {
+  font-family: "Bilbo Swash Caps", cursive;
+}
+.font-loc {
+  color: var(--color-navyBlue);
+}
+.sp-txt {
+  font-size: 4rem;
+  color: var(--color-blueGrotto);
+}
+.main-content {
+  display: flex;
+  margin: 0 10px 0 10px;
+}
+
+.cont-description {
+  font-size: var(--size-5);
+}
+.login-icon {
+  border: 2px solid var(--color-white);
+}
+
+.login-icon:hover {
+  border: 2px solid var(--color-blueGrotto);
+}
