@@ -4,45 +4,32 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cmart | Login</title>
+    <title>Cmart | Home</title>
     <link
       rel="stylesheet"
       href="https://aceeui.netlify.app/stylesheet/final.style.css"
     />
-    <link rel="stylesheet" href="/styles/login.css" />
+    <link rel="stylesheet" href="/styles/homepage.css" />
   </head>
   <body>
     <nav class="navbar">
       <div class="logo">
-        <a href="#" class="logo_link">
+        <a href="/index.html" class="logo_link">
           <i class="fas fa-birthday-cake fa-lg cake-logo"></i>
         </a>
         <h1 class="heading-title">Cmart</h1>
       </div>
       <ul class="list"></ul>
       <ul class="list_end">
-        <li class="list_item">
-          <a class="list_item--link" href="https://twitter.com/jn_dubey">
-            <i class="fab fa-twitter"></i>
-          </a>
+        <li class="list_item login">
+          <div class="login-icon">
+            <a class="list_item--link" href="./markups/login.html">
+              <i class="fas fa-user"></i>
+              <span class="login-txt">Login</span>
+            </a>
+          </div>
         </li>
-        <li class="list_item">
-          <a
-            class="list_item--link"
-            href="https://www.linkedin.com/in/aditya-dubey-47ba6870/"
-          >
-            <i class="fab fa-linkedin"></i>
-          </a>
-        </li>
-        <li class="list_item">
-          <a
-            class="list_item--link"
-            href="https://github.com/dubeyaditya29/Cmart"
-          >
-            <i class="fab fa-github"></i>
-          </a>
-        </li>
-      </ul>
+       
       <div class="burger">
         <div class="burger-logo">
           <i class="far fa-caret-square-down fa-lg"></i>
@@ -50,32 +37,29 @@
       </div>
     </nav>
     <main class="main-container">
-      <form action="#" class="form">
-        <h2 class="heading-main">Login</h2>
-        <label for="username" class="username">Enter Username</label>
-        <input class="df-input input-md border-radius" name="username" />
-        <label for="password" class="password">Enter Password</label>
-        <div class="input-container">
-          <div class="input">
-            <input
-              type="password"
-              id="input-pass"
-              class="df-input input-md border-radius"
-            />
-            <div class="see-pass">
-              <i class="fas fa-eye"></i>
-            </div>
-          </div>
+      <div class="main-content">
+        <div class="leftdiv">
+          <h1 class="font-loc">
+            Experience true flavours with <span class="sp-txt">Cmart</span>
+          </h1>
+          <p class="cont-description">
+            We are exactly what you are looking for. Yes, we are an FSSAI
+            certified online cake and Bakery Company that specializes in
+            delivering absolutely lip-smacking delicaciesCurrently, we are
+            delivering cakes in Gurgaon, Delhi, Noida, Ghaziabad, Bangalore and
+            Hyderabad. We are not just a bakery, we are not just bakers. In
+            fact, we are just like you, a bunch of food lovers fascinated with
+            sweet indulgence, who dreamt of creating an appetizing fairy land of
+            divine delicacies that relishes the utmost desires.
+          </p>
         </div>
-
-        <div class="submit-btn">
-          <a class="hyper-link" href="#">
-            <button class="btn btn-size-sm btn-color-df">Login</button>
-          </a>
-          <a href="" class="forgot-pass-link">forgot password?</a>
-          <a href="" class="sign-up">Sign Up</a>
+        <div class="rightdiv">
+          <img
+            src="./assets/undraw_birthday_cake_re_bsw5.svg"
+            alt="homepage image"
+          />
         </div>
-      </form>
+      </div>
     </main>
     <footer class="footer">
       <ul class="footer-list">
