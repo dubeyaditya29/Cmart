@@ -87,3 +87,15 @@
   position: absolute;
   top: 8.7rem;
 }
+.content-price_page {
+  position: absolute;
+  border: 3px solid black;
+  top: var(--size-20);
+  left: var(--width-70);
+  padding: 3%;
+}
+hr {
+  width: 100%;
+  height: 3px;
+  background-color: black;
+}
