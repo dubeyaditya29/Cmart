@@ -15,9 +15,7 @@
 .list {
   justify-content: space-around;
 }
-.list_end {
-  /* padding-left: 10%; */
-}
+
 .footer {
   display: flex;
   bottom: 0;

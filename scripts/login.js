@@ -1,4 +1,4 @@
-const content = document.querySelector(".input input");
+const content = document.querySelector("#input-pass");
 const seePassword = document.querySelector(".see-pass");
 
 seePassword.addEventListener("click", () => {
