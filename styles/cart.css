@@ -1,0 +1,89 @@
+.search_navbar {
+  padding: 10px;
+  width: var(--width-100);
+}
+.cake-logo {
+  color: var(--color-white);
+  font-size: var(--size-7);
+}
+.fa-search {
+  position: absolute;
+  top: 43%;
+  left: 26%;
+  cursor: pointer;
+}
+.list {
+  justify-content: space-around;
+}
+.list_end {
+  /* padding-left: 10%; */
+}
+.footer {
+  display: flex;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: var(--width-100);
+  height: 12vh;
+  background-color: var(--color-navyBlue);
+  gap: var(--size-2);
+}
+.footer-list {
+  display: flex;
+  gap: var(--size-3);
+  color: var(--color-white);
+}
+.footer-list_item {
+  list-style-type: none;
+  color: var(--color-white);
+  font-size: var(--size-6);
+}
+.footer-list_item--link {
+  color: var(--color-white);
+}
+.footer-h3 {
+  color: var(--color-white);
+}
+.heading-title {
+  color: var(--color-white);
+  font-size: var(--size-5);
+}
+.logo {
+  display: flex;
+  gap: var(--size-2);
+}
+.cart-container {
+  display: flex;
+  gap: var(--size-2);
+  width: 100%;
+  overflow: visible;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10%;
+  margin: 10% 0 10% 0;
+}
+.main-container h2 {
+  margin-bottom: 2rem;
+  border-bottom: 3px solid var(--color-blueGrotto);
+}
+.badge div {
+  font-size: 15px;
+  color: var(--color-navyBlue);
+  font-weight: var(--bold-300);
+}
+
+.badge {
+  margin: 0;
+}
+.card-title.overlay {
+  position: absolute;
+  top: 8.7rem;
+}
