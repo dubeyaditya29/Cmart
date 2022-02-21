@@ -26,3 +26,66 @@
 .login-icon:hover {
   border: 2px solid var(--color-blueGrotto);
 }
+.search_navbar {
+  padding: 10px;
+  width: var(--width-100);
+}
+.cake-logo {
+  color: var(--color-white);
+  font-size: var(--size-7);
+}
+.fa-search {
+  position: absolute;
+  top: 43%;
+  left: 21%;
+  cursor: pointer;
+}
+.list {
+  justify-content: space-around;
+}
+.list_end {
+  padding-left: 10%;
+}
+.footer {
+  display: flex;
+  position: inherit;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: var(--width-100);
+  height: 12vh;
+  background-color: var(--color-navyBlue);
+  gap: var(--size-2);
+}
+.footer-list {
+  display: flex;
+  gap: var(--size-3);
+  color: var(--color-white);
+}
+.footer-list_item {
+  list-style-type: none;
+  color: var(--color-white);
+  font-size: var(--size-6);
+}
+.footer-list_item--link {
+  color: var(--color-white);
+}
+.footer-h3 {
+  color: var(--color-white);
+}
+.heading-title {
+  color: var(--color-white);
+  font-size: var(--size-5);
+}
+.logo {
+  display: flex;
+  gap: var(--size-2);
+}
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 7%;
+}
