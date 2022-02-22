@@ -1,0 +1,8 @@
+.message_logout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+  flex-direction: column;
+  gap: 0.5rem;
+}
